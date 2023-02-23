@@ -1,0 +1,5 @@
+name: JumpNRun
+version: 1.0
+main: de.drillplayer.jumpnrun.Main
+author: DrillPlayer
+api-version: 1.19
