@@ -11,6 +11,7 @@ public class Main extends JavaPlugin {
 
     public static Main instance;
 
+    @Override
     public void onEnable() {
         instance = this;
         saveDefaultConfig();
@@ -22,6 +23,7 @@ public class Main extends JavaPlugin {
         getLogger().info("Jump'n'Run Plugin gestartet!");
     }
 
+    @Override
     public void onDisable() {
         getLogger().info("Jump'n'Run Plugin runtergefahren!");
     }
